@@ -1,0 +1,22 @@
+---
+title: "Chapter 6"
+author: 'N'
+date: "2024-03-19"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Exercises
+
+## 6.1 (Late to class?).
+
+Suppose the travel times for a particular student from home to school are normally distributed with mean 20 minutes and standard deviation 4 minutes. Each day during a five-day school week she leaves home 30 minutes before class. For each of the following problems, write a short Monte Carlo simulation function to compute the probability or expectation of interest.
+
+a.  Find the expected total traveling time of the student to school for a five- day week. Find the simulation estimate and give the standard error for the simulation estimate.
+
+b.  Find the probability that the student is late for at least one class in the five-day week. Find the simulation estimate of the probability and the corresponding standard error.
+
+c.  On average, what will be the longest travel time to school during the five- day week? Again find the simulation estimate and the standard error.
